@@ -17,7 +17,7 @@ function moveDodgerRight() { // function to move dodger right
   const left = parseInt(leftNumbers, 10);
   
   if(left < 300) { // make sure it doesnt go off grid. Grid is 400px while dodger is 40px
-    dodger.style.backgroundColor = "#1cfc23"
+    dodger.style.backgroundColor = "#ffffff"
     dodger.style.left = `${left + 10}px`;
   } 
 };
